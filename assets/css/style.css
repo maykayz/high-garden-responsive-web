@@ -3,8 +3,6 @@
     src: url(../fonts/sofia/Sofia-Regular.otf);
     font-weight: regular;
 }
-
-
 /*containers*/
 body,div{
     margin:0 auto;
@@ -390,7 +388,7 @@ body,div{
          width:90%;
          margin:0 auto;
      }
-         .caption h1{
+    .caption h1{
         font-weight: 500;
         font-size:4em;
     }
@@ -412,9 +410,30 @@ body,div{
  }
 @media only screen and (max-width:450px){
      .container{
-         width:100%;
+         width:90%;
          margin:0;
          padding:0;
      }
-
+    .row{
+        margin-right:0px;
+    }
+    .page3 .caption h1,.page5 .caption h1{
+    font-weight: 400;
+    font-size:3em;
+    }
+    .page3 .caption h3,.page5 .caption h3{
+        font-weight:400;
+        font-size:1em;
+    }
+    .items img{
+    float:left;
+    width:80px;
+    height:80px;
+    margin-right:10px;
+}
+    .gallery img{
+    width:80px;
+    height:80px;
+    margin:3px;
+}
 }
